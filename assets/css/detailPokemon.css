@@ -1,0 +1,103 @@
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+}
+nav {
+  padding: 1rem 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+h1{
+    padding: 0%;
+    margin: 0;
+}
+hr{
+    border: 1px solid #000;
+}
+.content {
+  padding: 0;
+}
+.identity {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+}
+.types {
+  padding: 0;
+  margin: 0;
+  width: auto;
+  list-style: none;
+  padding: 0 1rem;
+}
+.type {
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem 0;
+  font-size: 0.625rem;
+  width: 5rem;
+  border-radius: 1rem;
+  filter: brightness(1.1);
+  text-align: center;
+}
+.content-top {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem 1rem 0 0;
+  min-height: 40rem;
+}
+.content-bottom {
+    margin-top: 10rem;
+  background-color: #f6f8fc;
+  min-height: 31rem;
+  border-radius: 1rem 1rem 0 0;
+}
+.imagem {
+    position: absolute; /* Tira a imagem do fluxo normal do documento */
+    top: 13rem; /* Move a imagem 30px para baixo a partir da parte inferior do .content-top */
+    left: 50%; /* Centraliza a imagem horizontalmente */
+    transform: translateX(-50%); /* Ajusta a centralização com base na largura da imagem */
+    height: 10rem; /* Mantém a proporção da imagem */
+    z-index: 10; /* Garante que a imagem fique acima do .content-bottom */
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+.info{
+    display: flex;
+    padding: 0 3rem;
+    align-items: center;
+}
+.info-pokemon{
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    opacity: 0.6;
+}
+.result{
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+span{
+    padding: 1rem 0;
+}
+@media screen and (max-width: 576px) {
+    .content-top{
+        border-radius: unset;
+    }
+    .imagem {
+    top: 12rem; /* Move a imagem 30px para baixo a partir da parte inferior do .content-top */
+    }
+}

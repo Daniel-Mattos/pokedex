@@ -9,9 +9,11 @@ function loadPokemonItens(offset, limit) {
     const newHTML = pokemons
       .map(
         (pokemon) => `<li class="pokemon ${pokemon.type}">
-          <span class="number">#${pokemon.number}</span>
-          <span class="name">${pokemon.name}</span>
-
+        <a href="./assets/pokemon.html?id=${pokemon.number}">
+          <div class="identity">
+            <span class="name">${pokemon.name}</span>
+            <span class="number">#${pokemon.number}</span>
+          </div>
           <div class="detail">
             <ol class="types">
               ${pokemon.types
@@ -23,6 +25,7 @@ function loadPokemonItens(offset, limit) {
               alt="${pokemon.name}"
             />
           </div>
+          </a>
         </li>`
       )
       .join("")

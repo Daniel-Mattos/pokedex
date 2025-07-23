@@ -7,11 +7,28 @@ body {
 }
 .content {
   width: 100vw;
+  min-width: 340px;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #f6f8fc;
   height: 100vh;
 }
+@media screen and (min-width: 576px) {
+  body{
+     background-color: rgb(144, 196, 242);
+  }
+  .content {
+    max-width: 720px;
+    padding: 1rem;
+    background-color: #f6f8fc;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
 @media screen and (min-width: 992px) {
+  body{
+     background-color: rgb(144, 196, 242);
+  }
   .content {
     max-width: 992px;
     height: auto;
