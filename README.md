@@ -1,4 +1,3 @@
-
 # ⚛️ PokeApi js
 
 Um pokedex simples, construída com JS. Este projeto foi desenvolvido para praticar conceitos de API e manipulação de eventos em uma aplicação web.
