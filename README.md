@@ -17,14 +17,7 @@ A interface da pokedex foi projetada para ser limpa e intuitiva, permitindo que 
 
 ### Captura de Tela
 
-![Imagem da Calculadora](caminho/para/sua/imagem.png)
-
-### Exemplo de Uso
-
-O usuário pode clicar nos botões numéricos e de operadores para construir a expressão. O resultado é exibido em tempo real.
-
-![Gif mostrando o uso da calculadora](<img width="1095" height="696" alt="image" src="https://github.com/user-attachments/assets/fa34c723-36e9-43e0-8695-9291045ab17e" />
-)
+<img width="1095" height="696" alt="image" src="https://github.com/user-attachments/assets/fa34c723-36e9-43e0-8695-9291045ab17e" />
 
 ---
 
