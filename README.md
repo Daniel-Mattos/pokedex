@@ -6,7 +6,7 @@ Um pokedex simples, construída com JS. Este projeto foi desenvolvido para prati
 
 Você pode usar a calculadora online através deste link:
 
-[**Acesse a Calculadora**](https://daniel-mattos.github.io/pokedex/)
+[**Acesse a pokedex**](https://daniel-mattos.github.io/pokedex/)
 
 ---
 
@@ -35,12 +35,12 @@ Se você deseja rodar este projeto em sua máquina, siga os passos abaixo:
 
 1.  Clone o repositório:
     ```bash
-    git clone [https://github.com/daniel-mattos/Calculadora.git](https://github.com/daniel-mattos/Calculadora.git)
+    git clone [https://github.com/daniel-mattos/Calculadora.git](https://github.com/daniel-mattos/podedex.git)
     ```
 
 2.  Instale as dependências:
     ```bash
-    cd Calculadora
+    cd pokedex
     npm install
     ```
 
